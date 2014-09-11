@@ -1,0 +1,12 @@
+[submodule "orm"]
+	path = orm
+	url = https://github.com/ivanceras/orm
+[submodule "fluentsql"]
+	path = fluentsql
+	url = https://github.com/ivanceras/fluentsql
+[submodule "commons"]
+	path = commons
+	url = https://github.com/ivanceras/commons
+[submodule "parent"]
+	path = parent
+	url = https://github.com/ivanceras/parent
