@@ -4,4 +4,15 @@ language: java
 
 before_install:
  - git clone --recursive https://github.com/ivanceras/bundle.git
+ - cd parent
  - mvn clean install
+ - cd ../
+ - cd commons
+ - mvn clean install
+ - cd ../
+ - cd fluentsql
+ - mvn clean install
+ - cd ../
+ - cd orm
+ - mvn clean install
+ - cd ../
